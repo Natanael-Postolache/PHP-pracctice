@@ -93,12 +93,12 @@
 				return "Let's $do";
 			}
 
-			echo activity("Let's fuck ");
+			echo activity("I'm going to get a trip with ");
 
 		// Random functions
 
 			$babes = array("Miruna", "Andreea", "Eugenia", "Rebeca", "Jessica", "Theo", "Diana");
-			echo $babes[mt_rand(0 , 6)] . " " . rand(11 , 100) . " nights<br/>";
+			echo $babes[mt_rand(0 , 6)] . " for " . rand(11 , 100) . " days and nights<br/>";
 
 		// Date function
 			echo date('l jS \of F, Y') . "<br/>";
